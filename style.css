@@ -1,0 +1,47 @@
+#logo{
+    
+    width:6em;
+    height:6em;
+    padding-top: 2%;
+    position: absolute;
+    z-index: 1;
+    
+}
+
+#bg_left{
+  width: 35%;
+  height: 100%;
+  background-color: #FFAD07;
+  display:flex;
+  position: absolute;
+}
+
+#bg_right{
+  width: 65%;
+  height: 100%;
+  background-color: #0CE8E3;
+  display: block;
+  position: absolute;
+  left: 35%;
+}
+
+#html, body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+#bg{
+    position:static;
+}
+
+#title{
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    align-self: center;
+    font-size: 2.25em;
+    padding-left: 1em;
+    border-bottom: 5px solid #0CE8E3;
+}
+
+
